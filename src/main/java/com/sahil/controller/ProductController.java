@@ -1,8 +1,7 @@
-package com.sahil.projects.springboot.controller;
+package com.sahil.controller;
 
-
-import com.sahil.projects.springboot.entity.Product;
-import com.sahil.projects.springboot.service.ProductService;
+import com.sahil.entity.Product;
+import com.sahil.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

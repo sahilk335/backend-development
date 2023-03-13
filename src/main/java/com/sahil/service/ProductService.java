@@ -1,10 +1,10 @@
-package com.sahil.projects.springboot.service;
+package com.sahil.service;
 
-
-import com.sahil.projects.springboot.entity.Product;
+import com.sahil.entity.Product;
+import com.sahil.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.sahil.projects.springboot.repository.ProductRepository;
+
 
 import java.util.List;
 
